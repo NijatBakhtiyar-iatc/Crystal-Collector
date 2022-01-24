@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style/index.css" />
+    <title>Crystal Selector</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Crystal Collector</h1>
+      <div class="instruction">
+        <h6>Instructions</h6>
+        <p>
+          You will be given a random number at the start of the game. There are
+          four crystals below. By clicking on a crystal you will add a specific
+          amount of points to your total score. You win the game by matching
+          your total score to random number, you lose the game if your total
+          score goes above the random number. The value of each crystal is
+          hidden from you until you click on it. Each time when the game starts,
+          the game will change the values of each crystal
+        </p>
+      </div>
+      <div class="scores">
+        <div class="targetScore">
+          <h6>Target Score</h6>
+          <p><span>0</span></p>
+        </div>
+        <div class="yourScore">
+          <h6>Your Score</h6>
+          <p><span>0</span></p>
+        </div>
+        <div class="crystals">
+          <h6>Crystal Selection</h6>
+          <div class="image">
+            <img class="blue" src="./assets/img/blue.png" alt="blueCrystal" />
+            <img
+              class="green"
+              src="./assets/img/green.png"
+              alt="greenCrystal"
+            />
+            <img class="red" src="./assets/img/red.png" alt="redCrystal" />
+            <img
+              class="yellow"
+              src="./assets/img/yellow.png"
+              alt="yellowCrystal"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="gameCount">
+        <div class="win">
+          <h6>Win Count</h6>
+          <p><span>0</span></p>
+        </div>
+        <div class="loss">
+          <h6>Loss Count</h6>
+          <p><span>0</span></p>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/javascript/index.js"></script>
+  </body>
+</html>
